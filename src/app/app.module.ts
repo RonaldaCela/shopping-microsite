@@ -10,13 +10,13 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
 @NgModule({
   declarations: [
     AppComponent,
-    ToolbarComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    ProductListComponent
+    ProductListComponent,
+    ToolbarComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]
