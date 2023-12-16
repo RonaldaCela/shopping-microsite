@@ -7,6 +7,7 @@ import { ProductListComponent } from './product-list/product-list.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { CategoryListComponent } from './category-list/category-list.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { CategoryListComponent } from './category-list/category-list.component';
     ProductListComponent,
     ToolbarComponent,
     CategoryListComponent,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
